@@ -1,0 +1,71 @@
+
+
+body{
+    background-color: rgb(207, 199, 195);
+}
+
+.heading {
+    text-align: center;
+    color: #1512e3;
+    margin-top: 20%;
+}
+.container{
+    width: 250px;
+    height: 400px;
+    margin: 80px auto;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 5px 5px 1px #b6a9a9,
+    -5px -5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+}
+.calculator-box{
+    width: 200px;
+    margin: 20px auto;
+}
+#display {
+    border: none;
+    outline: none;
+    color: #000;
+    background: transparent;
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 30px 0 20px 0;
+    box-shadow:  inset 2px 2px 5px #fbfbfb, inset -5px -5px 10px #ffffff;
+}
+.button{
+    margin: 15px 0 0 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 42px;
+    height: 42px;
+    border-radius: 19%;
+    cursor: pointer;
+    background-color: rgb(195, 174, 174);
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+    display: inline-block;
+}
+
+.button:active{
+    box-shadow: inset 1px 1px 2px #1512e3 , inset -1px -1px 2px #ffffff;
+}
+
+.clearButton{
+    color: 
+    white;
+    background-color: rgb(23, 209, 23);
+}
+.operatorButton{
+    color: white;
+    background-color: #ff0000;
+}
+
+.brandName{
+    color: #ff0000;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
